@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "dev.ironsight.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [ "ServerPlayerMixin" ],
+  "client": [ "client.MinecraftMixin", "client.AbstractClientPlayerMixin" ],
+  "injectors": { "defaultRequire": 1 }
+}

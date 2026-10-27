@@ -1,0 +1,116 @@
+{
+  "shot.pistol": {
+    "sounds": [
+      "ironsight:shot_pistol"
+    ],
+    "subtitle": "subtitles.ironsight.shot.pistol"
+  },
+  "shot.revolver": {
+    "sounds": [
+      "ironsight:shot_revolver"
+    ],
+    "subtitle": "subtitles.ironsight.shot.revolver"
+  },
+  "shot.smg": {
+    "sounds": [
+      "ironsight:shot_smg"
+    ],
+    "subtitle": "subtitles.ironsight.shot.smg"
+  },
+  "shot.vector": {
+    "sounds": [
+      "ironsight:shot_vector"
+    ],
+    "subtitle": "subtitles.ironsight.shot.vector"
+  },
+  "shot.rifle": {
+    "sounds": [
+      "ironsight:shot_rifle"
+    ],
+    "subtitle": "subtitles.ironsight.shot.rifle"
+  },
+  "shot.burst": {
+    "sounds": [
+      "ironsight:shot_burst"
+    ],
+    "subtitle": "subtitles.ironsight.shot.burst"
+  },
+  "shot.shotgun": {
+    "sounds": [
+      "ironsight:shot_shotgun"
+    ],
+    "subtitle": "subtitles.ironsight.shot.shotgun"
+  },
+  "shot.lmg": {
+    "sounds": [
+      "ironsight:shot_lmg"
+    ],
+    "subtitle": "subtitles.ironsight.shot.lmg"
+  },
+  "shot.dmr": {
+    "sounds": [
+      "ironsight:shot_dmr"
+    ],
+    "subtitle": "subtitles.ironsight.shot.dmr"
+  },
+  "shot.sniper": {
+    "sounds": [
+      "ironsight:shot_sniper"
+    ],
+    "subtitle": "subtitles.ironsight.shot.sniper"
+  },
+  "reload": {
+    "sounds": [
+      "ironsight:reload"
+    ],
+    "subtitle": "subtitles.ironsight.reload"
+  },
+  "empty": {
+    "sounds": [
+      "ironsight:empty"
+    ],
+    "subtitle": "subtitles.ironsight.empty"
+  },
+  "bolt": {
+    "sounds": [
+      "ironsight:bolt"
+    ],
+    "subtitle": "subtitles.ironsight.bolt"
+  },
+  "pump": {
+    "sounds": [
+      "ironsight:pump"
+    ],
+    "subtitle": "subtitles.ironsight.pump"
+  },
+  "hit": {
+    "sounds": [
+      "ironsight:hit"
+    ],
+    "subtitle": "subtitles.ironsight.hit"
+  },
+  "headshot": {
+    "sounds": [
+      "ironsight:headshot"
+    ],
+    "subtitle": "subtitles.ironsight.headshot"
+  },
+  "kill": {
+    "sounds": [
+      "ironsight:kill"
+    ],
+    "subtitle": "subtitles.ironsight.kill"
+  },
+  "round": {
+    "sounds": [
+      "ironsight:round"
+    ],
+    "subtitle": "subtitles.ironsight.round"
+  },
+  "win": {
+    "sounds": [
+      "ironsight:win"
+    ],
+    "subtitle": "subtitles.ironsight.win"
+  }
+}

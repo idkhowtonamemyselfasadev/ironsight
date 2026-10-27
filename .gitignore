@@ -1,0 +1,18 @@
+# build + IDE
+.gradle/
+build/
+run/
+*.class
+# decompiled Minecraft/Fabric sources - never publish
+.ref/
+# Mojang server jar/libraries and third-party mod jars - not ours to redistribute
+testserver/
+testmods/
+test/client/game/
+test/client/*.log
+test/client/client.pid
+test/out/
+test/*.out
+# imagegen candidates
+tools/art/work/
+__pycache__/

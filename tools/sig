@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Print the real 1.21.11 signatures of a Mojang-mapped class from the Loom cache.
+# usage: tools/sig net.minecraft.client.gui.GuiGraphics [grep-pattern]
+set -euo pipefail
+JAR="$HOME/.gradle/caches/fabric-loom/minecraftMaven/net/minecraft/minecraft-merged/1.21.11-loom.mappings.1_21_11.layered+hash.2198-v2/minecraft-merged-1.21.11-loom.mappings.1_21_11.layered+hash.2198-v2.jar"
+JAVAP="$HOME/.gradle/jdks/eclipse_adoptium-21-amd64-linux.2/bin/javap"
+CP="$JAR"
+for extra in "$HOME"/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/*/*/*/*.jar "$HOME"/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/*/*/*.jar; do
+  [ -f "$extra" ] && CP="$CP:$extra"
+done
+if [ $# -ge 2 ]; then
+  "$JAVAP" -cp "$CP" "$1" | grep -E "$2"
+else
+  "$JAVAP" -cp "$CP" "$1"
+fi

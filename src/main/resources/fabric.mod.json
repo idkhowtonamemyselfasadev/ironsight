@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "ironsight",
+  "version": "${version}",
+  "name": "Ironsight",
+  "description": "Hitscan gun PvP minigame: 1v1/2v2/4v4 rounds and FFA on arena maps, one jar for client and server.",
+  "authors": [ "Tim" ],
+  "license": "MIT",
+  "icon": "assets/ironsight/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [ "dev.ironsight.Ironsight" ],
+    "client": [ "dev.ironsight.client.IronsightClient" ]
+  },
+  
+  "mixins": [ "ironsight.mixins.json" ],
+  "accessWidener": "ironsight.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
